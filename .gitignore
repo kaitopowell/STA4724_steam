@@ -2,5 +2,4 @@
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
-data/*.csv
-!data/.gitkeep
+data/games.csv
