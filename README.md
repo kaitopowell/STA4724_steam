@@ -35,13 +35,26 @@ MAKE SURE `data/games.csv` EXISTS BEFORE RUNNING ANYTHING.
 ## Run order
 
 1. `python src/clean_steam.py`   -> writes `data/steam_clean.csv`
-2. `python src/models.py`        -> fits models, writes tables/figures
-3. Open `notebooks/analysis.ipynb` to review results end to end
+2. `python src/models.py`        -> fits models, writes `results/`, `figures/`, `models/`
+3. `streamlit run app.py`        -> launches the predictor app
+4. Open `notebooks/analysis.ipynb` to review everything end to end
+
+The cleaned data, results, figures and trained model are committed, so you can run
+step 3 without the raw `games.csv`.
+
+## Deploy the app
+
+1. Push the repo to GitHub.
+2. Go to share.streamlit.io, sign in with GitHub, click **Create app**.
+3. Pick this repo, branch `main`, main file `app.py`, then **Deploy**.
 
 ## Layout
 
     data/        raw + cleaned data (gitignored)
+    app.py       Streamlit predictor app
     src/         cleaning and modeling code
+    results/     metrics, odds ratios, importances (CSV)
+    models/      trained model used by the app
     notebooks/   analysis notebook
     figures/     saved plots
     report/      report and slides

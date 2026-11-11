@@ -4,3 +4,5 @@ scikit-learn
 matplotlib
 statsmodels
 jupyter
+joblib
+streamlit>=1.50

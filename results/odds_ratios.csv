@@ -1,0 +1,33 @@
+feature,odds_ratio,note
+genre_game_development,1.978849226636201,yes vs. no
+release_year,1.403192942624432,per 1 SD increase
+genre_web_publishing,1.224411636257178,yes vs. no
+genre_design_and_illustration,1.2221012301736403,yes vs. no
+genre_casual,1.12663522412377,yes vs. no
+indie,1.0776958754924781,yes vs. no
+list_price,1.0750719536254647,per 1 SD increase
+n_languages,1.0498767179162267,per 1 SD increase
+genre_accounting,0.9711643195603923,yes vs. no
+genre_movie,0.9684345920532441,yes vs. no
+genre_adventure,0.9387880868545667,yes vs. no
+genre_photo_editing,0.9092793889292189,yes vs. no
+genre_free_to_play,0.9002786740849271,yes vs. no
+genre_sports,0.8795403942665307,yes vs. no
+genre_sexual_content,0.8734506418278426,yes vs. no
+genre_racing,0.8614512069965025,yes vs. no
+multiplayer,0.8592342888156829,yes vs. no
+genre_rpg,0.826935525596994,yes vs. no
+genre_education,0.8197037325118114,yes vs. no
+genre_action,0.7206598271517226,yes vs. no
+genre_strategy,0.7179260678772496,yes vs. no
+genre_early_access,0.6722462669385663,yes vs. no
+genre_violent,0.6587293909688907,yes vs. no
+genre_software_training,0.6489680824302332,yes vs. no
+genre_simulation,0.6414669144899114,yes vs. no
+genre_animation_and_modeling,0.6254436645559178,yes vs. no
+genre_utilities,0.5944909165108052,yes vs. no
+genre_gore,0.5812846985460173,yes vs. no
+genre_video_production,0.5770315738666617,yes vs. no
+genre_audio_production,0.5141525182933872,yes vs. no
+genre_nudity,0.44943104290520436,yes vs. no
+genre_massively_multiplayer,0.2873544014116161,yes vs. no
