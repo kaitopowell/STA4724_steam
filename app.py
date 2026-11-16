@@ -22,6 +22,10 @@ st.set_page_config(page_title="Review Predictor", layout="wide")
 st.markdown(
     """
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap');
+  html, body, .stApp, .stApp *:not([data-testid="stIconMaterial"]):not(.material-icons):not([class*="material"]) {
+    font-family: 'Figtree', 'Motiva Sans', 'Segoe UI', Arial, sans-serif;
+  }
   .stApp { background: linear-gradient(180deg,#1d3048 0px,#14202f 420px,#101826 900px); }
   header[data-testid="stHeader"] { background:#0d1520; }
   .block-container { padding-top: 3.8rem; max-width: 1180px; }
